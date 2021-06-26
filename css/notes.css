@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    width: 100%;
+    
+}
+
+.logo {
+    color: black;
+    font-size: 50px;
+    padding-left: 100px;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+
+header .menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu{
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+}
+
+.logo span{
+color: green;    
+}
+
+
+.note{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.notes{
+    margin-top: 90px;
+    display: flex;
+
+}
+
+.icons{
+    padding: 50px;
+}
+
+.icons1{
+    padding: 55px;
+}
+
+.icons2{
+    padding: 65px;
+}
+
+.More{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.icons-less{
+    padding: 20px;
+}
+
+#down{
+    font-size: 40px;
+}
+
+.notes .soon{
+    font-size: 40px;
+    padding-left: 150px;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+footer{
+    height: 10vh;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    font-size: 25px;
+}
